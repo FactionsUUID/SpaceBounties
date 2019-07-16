@@ -1,0 +1,58 @@
+
+######################################
+#                                    #
+#            SpaceBounties           #
+#        Developed by Joeyoey        #
+#      Designed by FactionsUUID      #
+#                                    #
+######################################
+
+messages:
+  help:
+    - "&8&m--------------&r&8&l<&e&lBounty Help&r&8&l>&8&m--------------"
+    - "  &8» &6/bounty &eview &7[player] &8- &fView all players that have a bounty."
+    - "  &8» &6/bounty &eset &7[player] [Amount] &8- &fPlaces a bounty on a player."
+    - "&8&m-----------------------------------------"
+  error: '&e&l[!] &eThere was an issue...'
+  player-no-bounty: '&e&l[!] &eThat player doesnt have a bounty.'
+  player-doesnt-exist: '&e&l[!] &eThat player doesnt exist.'
+  loading: '&e&l[!] &eOpening bounty list...'
+  bounty-aquired: '&e&l[!] &eYou successfully killed &6%dead% &eand got &6%amount%&e.'
+  lost-bounty: '&e&l[!] &eYou lost your bounty!'
+  no-money: '&e&l[!] &eYou dont have enough money to do that.'
+  bounty-success: '&e&l[!] &eYou successfully set a bounty on &6%player%&e for &7%amount%'
+  bounty-fail: '&e&l[!] &eYou need to set for a number in-between &6%min%&e and &6%max%'
+  bounty-broadcast: '&e&l[!] &6%setter%&e added to the bounty of &6%player% with &6%amount% &7(%total% Total)'
+  bounty-new-broadcast: '&e&l[!] &6%setter%&e has set a bounty on &6%player%&e worth &6%amount%&e.' #when someone hasnt had a bounty yet
+BountyDisplayItem:
+  Name: "&a&l%name%'s Bounty"
+  Lore:
+    - " "
+    - "&6* &e&lAmount &7$%amount%"
+    - "&6* &e&lRank &7#%rank%"
+    - "&6* &e&lStatus %status%"
+    - ""
+    - "&7Kill this player to collect reward."
+    - ""
+  Status:
+    Online: "&a&lONLINE"
+    Offline: "&c&lOFFLINE"
+settings:
+  broadcast-bounty: true
+  min-amount: 499
+  max-amount: 1000000
+  inv-size: 45
+  inv-name: '&8&lBOUNTY TOP'
+  single-inv-name: '&b%name%''s bounty stats.'
+  slots:
+  - 4
+  - 12
+  - 13
+  - 14
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  filler-material: STAINED_GLASS_PANE
+  filler-data: 15

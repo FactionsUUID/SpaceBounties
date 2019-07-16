@@ -1,0 +1,8 @@
+main: com.joeyoey.bounty.Bounty
+name: SpaceBounties
+version: 1.0
+author: Joeyoey 
+description: Shits mad crazy out here fr fr.
+commands:
+  bounty:
+    description: See them bounties.
