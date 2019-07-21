@@ -158,7 +158,7 @@ public class Commands implements CommandExecutor, TabCompleter {
         viewer.sendMessage(
             ChatColor.translateAlternateColorCodes('&', plugin.getConfig().getString("messages.loading")));
 
-        ItemStack fill = new ItemStack(
+        ItemStack fill = new ItemStack( 
             Material.getMaterial(plugin.getConfig().getString("settings.filler-material").toUpperCase()), 1,
             (short) plugin.getConfig().getInt("settings.filler-data"));
         ItemMeta fillM = fill.getItemMeta();
